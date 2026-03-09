@@ -1,6 +1,6 @@
 {
   "name": "whalib",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "JavaScript / Node.js WhatsApp Web API Client — connect to WhatsApp Multi-Device, send messages, manage groups, handle media, and more",
   "main": "index.js",
   "type": "commonjs",
@@ -27,11 +27,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Kunboruto20/whalib.git"
   },
-  "homepage": "",
+  "homepage": "https://github.com/Kunboruto20/whalib",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/Kunboruto20/whalib/issues"
   },
   "dependencies": {
     "curve25519-js": "^0.0.4",

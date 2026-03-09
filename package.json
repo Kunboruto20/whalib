@@ -1,0 +1,44 @@
+{
+  "name": "whalib",
+  "version": "1.1.0",
+  "description": "JavaScript / Node.js WhatsApp Web API Client — connect to WhatsApp Multi-Device, send messages, manage groups, handle media, and more",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "build:proto": "node scripts/build-proto.js",
+    "example": "node example.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "whatsapp",
+    "whatsapp-web",
+    "whatsapp-api",
+    "whatsapp-bot",
+    "whatsapp-multi-device",
+    "signal-protocol",
+    "messaging",
+    "chat",
+    "bot",
+    "nodejs"
+  ],
+  "author": "Boruto VPN",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "",
+  "bugs": {
+    "url": ""
+  },
+  "dependencies": {
+    "curve25519-js": "^0.0.4",
+    "futoin-hkdf": "^1.5.3",
+    "protobufjs": "^7.2.6",
+    "qrcode-terminal": "^0.12.0",
+    "ws": "^8.16.0",
+    "pino": "^8.17.2"
+  }
+}
